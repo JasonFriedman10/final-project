@@ -1,13 +1,4 @@
-#box{
-   background-image: url(http://wefut.com/assets/images/fut15/silver1.png);
-   height: 353px;
-   width: 243px;
-   border: 2px solid black;
-   font-family: 'Titillium Web', sans-serif;
-   color: white;
-   text-shadow: 1px 1px 1px #333;
-   text-transform: uppercase; 
-}
+
 
 #name{
    font-size: 21px;

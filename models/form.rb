@@ -1,5 +1,5 @@
 class Form
-  attr_reader :name, :position, :pace, :shooting, :passing, :dribbling, :defending, :physicality, :rank
+  attr_reader :name, :position, :pace, :shooting, :passing, :dribbling, :defending, :physicality, :rank, :card, :image, :club, :flag
   def initialize(name, position, pace, shooting, passing, dribbling, defending, physicality, card, image, club, flag)
     @name = name
     @position = position

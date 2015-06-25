@@ -2,74 +2,69 @@
 <html>
   <head>
     <link rel= "stylesheet" type= "text/css" href= "css/style.css" >
-    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <form  method="POST" action="/card">
-      <h3><center class="right"><label for="name">NAME</label>
-      <center class="right"><input id="name" name = "name" type="text" placeholder ="Name"></center>
-     
-      <center class="left"><label for="position">POSITION</label></center>
-      <center class="left"><input id="position" name = "position" type="text" placeholder ="Position"></center>
-      
-      <center class="right"><label for="Pace">PACE</label></center>
-      <center class="right"><input id="Pace" name ="Pace" type="number" min="1" max="99" placeholder= "PAC"></center>
-    
-      <center class="left"><label for="Shooting">SHOOTING</label></center>
-      <center class="left"><input id="Shooting " name = "Shooting" type="number" min="1" max="99" placeholder= "SHO"></center>
-     
+    <form  method="POST" action="/">
+      <center><h3><label for="name">Name</label></h3></center>
+      <center><input id="name" name="name" type="text" placeholder ="Name"></center>
+      <br>
+      <center><h3><label for="position">Position</label></h3></center>
+      <center><input id="position" name="position" type="text" placeholder ="Position"></center>
+      <br>
+      <center><h3><label for="Pace">Pace</label></h3></center>
+      <center><input id="Pace" name="Pace" type="number" min="1" max="99" placeholder= "PAC"></center>
+      <br>
+      <center><h3><label for="Shooting">Shooting</label></h3></center>
+      <center><input id="Shooting " name="Shooting" type="number" min="1" max="99" placeholder="SHO"></center>
+      <br>
       <div class = "custom1"> 
       
-      <img  src ="http://i.imgur.com/fHwS4q7.png" height ="200px" width = "150px">
+      <img  src ="http://i.imgur.com/fHwS4q7.png" height="200px" width = "150px">
       <center><h2>Example</h2></center>
     </div>
     <div class = "custom2"> 
       
-      <img  src ="http://i.imgur.com/fHwS4q7.png" height ="200px" width = "150px">
+      <img  src ="http://i.imgur.com/fHwS4q7.png" height="200px" width = "150px">
       <center><h2>Example</h2></center>
     </div>
-      <center class="right"><label for="Physical">PHYSICAL</label></center>
-      <center class="right"><input id="Physical" name ="Physical" type="number" min="1" max="99" placeholder= "PHY"></center>
-      
-      <center class="left"><label for="Dribbling">DRIBBLING</label></center>
-      <center class="left"><input id="Dribbling" name ="Dribbling" type="number" min="1" max="99" placeholder= "DRI"></center>
-      
-      <center class="right"><label for="Passing">PASSING</label></center>
-      <center class="right"><input id="Passing" name ="Passing" type="number" min="1" max="99" placeholder= "PAS"></center>
-      
-      <center class="left"><label for="Defending">DEFENDING</label></center>
-      <center class="left"><input id="Defending" name ="Defending" type="number" min="1" max="99" placeholder= "DEF"></center>
-      
-      <center class="right"><label for="country">COUNTRY</label></center>
-      <center class="right"><select id= "country" name="country">
+      <center><h3><label for="Physical">Physical</label></h3></center>
+      <center><input id="Physical" name="Physical" type="number" min="1" max="99" placeholder= "PHY"></center>
+      <br>
+      <center><h3><label for="Dribbling">Dribbling</label></h3></center>
+      <center><input id="Dribbling" name="Dribbling" type="number" min="1" max="99" placeholder= "DRI"></center>
+      <br>
+      <center><h3><label for="Passing">Passing</label></h3></center>
+      <center><input id="Passing" name="Passing" type="number" min="1" max="99" placeholder= "PAS"></center>
+      <br>
+      <center><h3><label for="Defending">Defending</label></h3></center>
+      <center><input id="Defending" name="Defending" type="number" min="1" max="99" placeholder= "DEF"></center>
+      <br>
+      <center><h3><label for="country">Country</label></h3></center>
+      <center><select id= "country" name="country">
         <option value="http://wefut.com/assets/images/nation_flag/45.jpg">Spain</option>
         <option value="http://wefut.com/assets/images/nation_flag/95.jpg">United States</option>
         <option value="http://wefut.com/assets/images/nation_flag/21.jpg">Germany</option>
         <option value="http://wefut.com/assets/images/nation_flag/52.jpg">Argentina</option>
         <option value="http://wefut.com/assets/images/nation_flag/14.jpg">England</option>
       </select></center>
-      
-      <center class="left"><label for="club">CLUB</label></center>
-      <center class="left"><select id= "club" name="club">
+      <br>
+      <center><h3><label for="club">Club</label></h3></center>
+      <center><select id= "club" name="club">
         <option value="http://wefut.com/assets/images/fut15/clubbadges/22.png">Borussia Dortmund</option>
         <option value="http://wefut.com/assets/images/fut15/clubbadges/5.png">Chelsea</option>
         <option value="http://wefut.com/assets/images/fut15/clubbadges/11.png">Manchester United</option>
         <option value="http://wefut.com/assets/images/fut15/clubbadges/9.png ">Liverpool</option>
         <option value="http://wefut.com/assets/images/fut15/clubbadges/45.png">Juventus</option>
       </select></center>
-      
-      <center class="right"><label for="card">CARD</label></center>
-      <center class="right"><select id= "card" name="card">
+      <br>
+      <center><h3><label for="card">Card</label></h3></center>
+      <center><select id= "card" name="card">
+        <option value="http://wefut.com/assets/images/fut15/gold5.png">TOTY</option>
+        <option value="http://wefut.com/assets/images/fut15/gold6.png">Special Edition</option>
         <option value="http://wefut.com/assets/images/fut15/gold1.png">Gold Rare</option>
         <option value="http://wefut.com/assets/images/fut15/silver1.png">Silver Rare</option>
         <option value="http://wefut.com/assets/images/fut15/bronze1.png">Bronze Rare</option>
-        <option value="http://wefut.com/assets/images/fut15/gold5.png">TOTY</option>
-        <option value="http://wefut.com/assets/images/fut15/gold6.png">Special Edition</option>
       </select></center>
-      <center class="left"><label for="email">Email</label></center>
-      <center class="left"><input id="email" name ="email" type="text" placeholder= "email"></center>
-      
-      <br>
       <br>
       <center><input type="submit"></center>
              

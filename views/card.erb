@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <head>
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
-  <link href='/public/css/card.css' rel='stylesheet' type='text/css'>
+  <link href='css/card.css' rel='stylesheet' type='text/css'>
   <style>
 #box{ 
-  background-image: url(<%= @card %>);
+  background-image: url(<%= @form.card %>);
    height: 353px;
    width: 243px;
    border: 2px solid black;
@@ -12,25 +12,27 @@
    color: white;
    text-shadow: 1px 1px 1px #333;
    text-transform: uppercase;
-  
+
+    
 }
 </style>
 </head>
 
 <body>
+  
   <div id="box">
-    <center><p id="name"><%= @name %></p></center>
-    <p id="rating"><%= @rank %></p>
-    <p id="position"><%= @position %></p>
-    <p id="pac"><%= @pace %> PAC</p>
-    <p id="sho"><%= @shooting %> SHO</p>
-    <p id="pas"><%= @passing %> PAS</p>
-    <p id="dri"><%= @dribbling %> DRI</p>
-    <p id="def"><%= @defending %> DEF</p>
-    <p id="phy"><%= @physicality %> PHY</p>
-    <img id="img" src="<%= @image %>" height="125" width="125">
-    <img id="club" src="<%= @club %>" height="45" width="45">
-    <img id="flag" src="<%= @flag %>" height="27" width="45">
+    <center><p id="name"><%= @form.name %></p></center>
+    <p id="rating"><%= @form.rank %></p>
+    <p id="position"><%= @form.position %></p>
+    <p id="pac"><%= @form.pace %> PAC</p>
+    <p id="sho"><%= @form.shooting %> SHO</p>
+    <p id="pas"><%= @form.passing %> PAS</p>
+    <p id="dri"><%= @form.dribbling %> DRI</p>
+    <p id="def"><%= @form.defending %> DEF</p>
+    <p id="phy"><%= @form.physicality %> PHY</p>
+    <img id="img" src="<%= @form.image %>" height="125" width="125">
+    <img id="club" src="<%= @form.club %>" height="45" width="45">
+    <img id="flag" src="<%= @form.flag %>" height="27" width="45">
     <center><p id="cem">Basic</p></center>
   </div>
   

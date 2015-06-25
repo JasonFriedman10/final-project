@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
+  <link href='/public/css/card.css' rel='stylesheet' type='text/css'>
+  <style>
+#box{ 
+  background-image: url(<%= @card %>);
+   height: 353px;
+   width: 243px;
+   border: 2px solid black;
+   font-family: 'Titillium Web', sans-serif;
+   color: white;
+   text-shadow: 1px 1px 1px #333;
+   text-transform: uppercase;
+  
+}
+</style>
+</head>
+
+<body>
+  <div id="box">
+    <center><p id="name"><%= @name %></p></center>
+    <p id="rating"><%= @rank %></p>
+    <p id="position"><%= @position %></p>
+    <p id="pac"><%= @pace %> PAC</p>
+    <p id="sho"><%= @shooting %> SHO</p>
+    <p id="pas"><%= @passing %> PAS</p>
+    <p id="dri"><%= @dribbling %> DRI</p>
+    <p id="def"><%= @defending %> DEF</p>
+    <p id="phy"><%= @physicality %> PHY</p>
+    <img id="img" src="<%= @image %>" height="125" width="125">
+    <img id="club" src="<%= @club %>" height="45" width="45">
+    <img id="flag" src="<%= @flag %>" height="27" width="45">
+    <center><p id="cem">Basic</p></center>
+  </div>
+  
+  
+</body>
+
+
+</html>

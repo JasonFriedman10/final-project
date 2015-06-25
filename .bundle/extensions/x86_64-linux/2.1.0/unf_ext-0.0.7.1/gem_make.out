@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /usr/local/opt/rbenv/versions/2.1.5/bin/ruby -r ./siteconf20150625-19548-1ugdt0o.rb extconf.rb
+=======
+/usr/local/opt/rbenv/versions/2.1.5/bin/ruby -r ./siteconf20150625-9912-6u5bx3.rb extconf.rb
+>>>>>>> f645ed49c80ff3aff87094df281635e00f5945b5
 checking for main() in -lstdc++... yes
 creating Makefile
 
@@ -9,5 +13,9 @@ compiling unf.cc
 linking shared-object unf_ext.so
 
 make "DESTDIR=" install
+<<<<<<< HEAD
 /usr/bin/install -c -m 0755 unf_ext.so ./.gem.20150625-19548-z4qytq
+=======
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20150625-9912-10qzxhk
+>>>>>>> f645ed49c80ff3aff87094df281635e00f5945b5
 installing default unf_ext libraries

@@ -1,6 +1,6 @@
 require 'bundler'
 Bundler.require
-# require_relative "models/dog.rb"
+require_relative "models/form.rb"
 
 class MyApp < Sinatra::Base
 
@@ -13,8 +13,7 @@ class MyApp < Sinatra::Base
   end
   
   post "/form" do 
-#     puts params
-#     @form = Form.new(params["name"], params["position"], params["pace"], params["shooting"], params["passing"], param       s["dribbling"], params["defending"], params["physicality"])
+     @form = Form.new(params["name"], params["position"], params["pace"], params["shooting"], params["passing"], param      s["dribbling"], params["defending"], params["physicality"], params["card"], params["image"], params["club"], para      ms["flag"])
      erb :form
   end
   

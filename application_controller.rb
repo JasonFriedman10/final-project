@@ -17,4 +17,8 @@ class MyApp < Sinatra::Base
      erb :form
   end
   
+  get "/card" do
+    erb :card
+  end
+  
 end

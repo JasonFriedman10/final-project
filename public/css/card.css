@@ -1,103 +1,102 @@
 #box{
-    background-image: url(http://wefut.com/assets/images/fut15/silver1.png);
-    height: 353px;
-    width: 243px;
-    border: 2px solid black;
+   background-image: url(http://wefut.com/assets/images/fut15/silver1.png);
+   height: 353px;
+   width: 243px;
+   border: 2px solid black;
    font-family: 'Titillium Web', sans-serif;
    color: white;
    text-shadow: 1px 1px 1px #333;
-   text-transform: uppercase;
-  
+   text-transform: uppercase; 
 }
 
- #name{
+#name{
    font-size: 21px;
    font-weight: bold;
  }
     
-  #rating{
+#rating{
    font-size: 35px;
    font-weight: bold;
    position: absolute;
-    left: 30px;
-    top: 15px;
+   left: 30px;
+   top: 15px;
  }
     
-  #position{
+#position{
    font-size: 19px;
    font-weight: bold;
    position: absolute;
-    left: 76px;
-    top: 48px;
+   left: 76px;
+   top: 48px;
  }
     
-     #pac{
-   font-size: 19px;
-   font-weight: bold;
-   position: absolute;
+#pac{
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
     left: 40px;
     top: 213px;
  }
     
-      #sho{
-   font-size: 19px;
-   font-weight: bold;
-   position: absolute;
+#sho{
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
     left: 40px;
     top: 247px;
  }
     
-        #pas{
+#pas{
    font-size: 19px;
    font-weight: bold;
    position: absolute;
-    left: 40px;
-    top: 275px;
+   left: 40px;
+   top: 275px;
  }
     
-          #dri{
+#dri{
    font-size: 19px;
    font-weight: bold;
    position: absolute;
-    left: 165px;
-    top: 213px;
+   left: 165px;
+   top: 213px;
  }
     
-              #def{
+#def{
+  font-size: 19px;
+   font-weight: bold;
+   position: absolute;
+   left: 165px;
+   top: 247px;
+ }
+    
+#phy{
    font-size: 19px;
    font-weight: bold;
    position: absolute;
-    left: 165px;
-    top: 247px;
+   left: 165px;
+   top: 275px;
  }
     
-              #phy{
-   font-size: 19px;
-   font-weight: bold;
+#img{
    position: absolute;
-    left: 165px;
-    top: 275px;
- }
-    
-    #img{
-      position: absolute;
-    left: 109px;
-    top: 62px;
+   left: 109px;
+   top: 62px;
     }
     
-     #club{
-      position: absolute;
+#club{
+   position: absolute;
    top: 107px;
-    left: 42px;
+   left: 42px;
     }
     
-     #flag{
-      position: absolute;
+#flag{
+    position: absolute;
     top: 160px;
     left: 42px;
     }
 
-      #cem{
-        margin-top: 133px;
-font-size: 21px;
+#cem{
+    margin-top: 133px;
+    font-size: 21px;
     }

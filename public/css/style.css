@@ -11,7 +11,8 @@ linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transpar
 background-color: #131313;
 background-size: 20px 20px; */
   background-image: url("http://bgfons.com/upload/grass_texture241.jpg");
-  font-family: 'Titillium Web', sans-serif;
+  
+  font-family: 'Titillium Web', sans-serif;  
   color: black;
    
   
@@ -53,4 +54,15 @@ button.fifa {
   top: -30px;
   transform: rotate(-15deg);
   right: 150px;
+}
+.left {
+  position: relative;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  
+}
+.right {
+  position: relative;
+  margin-bottom: 5px;
+  margin-top: 15px;
 }

@@ -16,8 +16,6 @@ class MyApp < Sinatra::Base
   
   
    post '/card' do
-     puts "IM IN THE POST ROUTE TO /CARD"
-     puts params
       @form = Form.new(params["name"], params["position"], params["pace"], params["shooting"], params["passing"], params["dribbling"], params["defending"], params["physicality"], params["card"], params["club"], params["flag"], params["image"])
      puts "PACE"
      puts @form.pace

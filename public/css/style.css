@@ -1,23 +1,43 @@
-/* body {
-    background-image: url("http://media2.fcbarcelona.com/media/asset_publics/resources/000/036/268/size_640x360/2012-12-01_OTRA_CARA_BARCELONA-ATHLETIC_34-Optimized.v1354468000.v1354816903.JPG");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 1450px 750px;
-} */
-/* body {
-  background-image: url("http://previews.123rf.com/images/ivicans/ivicans1112/ivicans111200006/11603475-green-natural-grass-of-a-Football-soccer-field-Stock-Photo.jpg");
-  background-repeat: no-repeat;
-  background-position: left middle;
-  background-size: 400px 700px;
-  
-} */
-
 body {
-  background-color: #C7D0C0;
+  
+  background: linear-gradient(to right, #575A67, grey, #575A67);
+  
 }
 
-/* .position {
-    position: fixed;
-    top: 300px;
-    right: 5px;
-} */
+button.fifa {
+  background: radial-gradient(#DBBF1A, #B29D21);
+  border-style: solid, black;
+  border-width: 5px;
+  
+  color: #04104B;
+  float: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  position: relative; 
+  
+  top: 380px;
+  
+  
+}
+.soccer{
+  float: center;
+  position: relative; 
+  top: 100px;
+  
+  
+}
+.custom1{
+  float: left;
+  position: relative; 
+  top: -30px;
+  transform: rotate(15deg);
+  left: 150px;
+}
+.custom2{
+  float: right;
+  position: relative; 
+  top: -30px;
+  transform: rotate(-15deg);
+  right: 150px;
+}

@@ -9,7 +9,7 @@ class Form
     @dribbling = dribbling
     @defending = defending
     @physicality = physicality
-    @rank = (pace + shooting + passing + dribbling + defending + physicality)/6
+    @rank = (pace.to_i + shooting.to_i + passing.to_i + dribbling.to_i + defending.to_i + physicality.to_i)/6
     @card = card
     @image = image
     @club = club

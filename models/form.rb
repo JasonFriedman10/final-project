@@ -1,6 +1,6 @@
 class Form
   attr_reader :name, :position, :pace, :shooting, :passing, :dribbling, :defending, :physicality, :rank, :card, :image, :club, :flag
-  def initialize(name, position, pace, shooting, passing, dribbling, defending, physicality, card, image, club, flag)
+  def initialize(name, position, pace, shooting, passing, dribbling, defending, physicality, card, club, flag, image)
     @name = name
     @position = position
     @pace = pace
@@ -9,10 +9,10 @@ class Form
     @dribbling = dribbling
     @defending = defending
     @physicality = physicality
-    @rank = (pace + shooting + passing + dribbling + defending + physicality)/6
+    @rank = (pace.to_i + shooting.to_i + passing.to_i + dribbling.to_i + defending.to_i + physicality.to_i)/6
     @card = card
-    @image = image
     @club = club
     @flag = flag
+    @image = image
   end
 end

@@ -18,6 +18,13 @@ background-size: 20px 20px; */
   
 }
 
+.ranks{
+  width: 40px;
+  
+  
+  
+}
+
 button.fifa {
   background: radial-gradient(#DBBF1A, #B29D21);
   border-style: solid, black;

@@ -12,12 +12,13 @@ class MyApp < Sinatra::Base
     erb :form
   end
   
-   post "/form" do 
-   @form = Form.new(params["name"], params["position"], params["pace"], params["shooting"], params["passing"], params["dribbling"], params["defending"], params["physicality"], params["card"], params["image"], params["club"], params["flag"])
-     erb :card
-   end
+   
+  
   
    post '/card' do
+      @form = Form.new(params["name"], params["position"], params["pace"], params["shooting"], params["passing"], params["dribbling"], params["defending"], params["physicality"], params["card"], params["club"], params["flag"], params["image"])
+     puts "PACE"
+     puts @form.pace
     erb :card
   end
    

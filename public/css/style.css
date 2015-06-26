@@ -34,11 +34,21 @@ button.fifa {
   
   
 }
-.soccer{
+.custom3{
   float: center;
   position: relative; 
   top: 100px;
+  left: 150px;
+  transform: rotate(-10deg);
   
+  
+}
+.custom4{
+  float: center;
+  position: relative; 
+  top: -221px;
+  right: 150px;
+  transform: rotate(10deg);
   
 }
 .custom1{

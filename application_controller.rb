@@ -7,8 +7,8 @@ class MyApp < Sinatra::Base
   get "/" do
     erb :index
   end
-  
-  get "/form" doff fd
+   
+  get "/form" do
     erb :form
   end
  

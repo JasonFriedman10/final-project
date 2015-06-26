@@ -69,15 +69,16 @@ button.fifa {
 }
 .left {
   position: relative;
-  left: 25px;
-  
+  left: 100px;
+  top: 119px;
 
   
 }
 .right {
   position: relative;
-  right: 25px;
-  margin-bottom; 5px;
+  right: 100px;
+  top: -119px;
+  
 }
 
 @import url(http://fonts.googleapis.com/css?family=Nunito:300);

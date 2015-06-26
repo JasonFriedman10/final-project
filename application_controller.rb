@@ -5,7 +5,7 @@ require_relative "models/form.rb"
 class MyApp < Sinatra::Base
   
   
-# configure do
+# configure do hhhh
 #   enable :sessions
 #   set :sessions, :expire_after => 60*60*24
 #   set :session_secret, "fifa"

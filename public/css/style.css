@@ -18,16 +18,6 @@ background-size: 20px 20px; */
   
 }
 
-.ranks{
-  width: 40px;
-  
-  
-  
-}
-.title{
-  font-family: 'Merriweather Sans', sans-serif;
-}
-
 button.fifa {
   background: radial-gradient(#DBBF1A, #B29D21);
   border-style: solid, black;

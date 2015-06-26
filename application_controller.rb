@@ -5,21 +5,26 @@ require_relative "models/form.rb"
 class MyApp < Sinatra::Base
   
   
-configure do
-  enable :sessions
-  set :sessions, :expire_after => 60*60*24
-  set :session_secret, "fifa"
-end
+# configure do
+#   enable :sessions
+#   set :sessions, :expire_after => 60*60*24
+#   set :session_secret, "fifa"
+# end
 
-use Rack::Session::Cookie, :key => 'rack.session',
-                           :domain => 'foo.com',
-                           :path => '/',
-                           :expire_after => 2592000, # In seconds
-                           :secret => 'fifa'
+# use Rack::Session::Pool, :key => 'rack.session',
+#                            :domain => 'foo.com',
+#                            :path => '/',
+#                            :expire_after => 2592000, # In seconds
+#                            :secret => 'fifa'
+  
+  set :sessions, true
+  set :session_secret, "fifa"
+  
     
       
   get "/" do
     erb :index
+    
   end
    
   get "/form" do
@@ -50,12 +55,7 @@ end
   
 
 get '/card' do
-  
-  puts "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-  puts session[:name]
- puts session[:session_id]
  
-  
 @form = Form.new(session[:name],  session[:position],  session[:pace],  session[:shooting], session[:passing],  session[:dribbling],  session[:defending],  session[:physicality], session[:card],  session[:club], session[:flag], session[:image])
 #    @form.convert
      erb :card

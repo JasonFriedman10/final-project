@@ -1,4 +1,9 @@
-
+body {
+  background-image: url("http://bgfons.com/upload/grass_texture241.jpg");
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: 100% 100%;
+}
 
 #name{
    font-size: 21px;
@@ -71,8 +76,8 @@
     
 #img{
    position: absolute;
-   left: 120px;
-   top: 70px;
+   left: 109px;
+   top: 62px;
     }
     
 #club{
@@ -91,3 +96,63 @@
     margin-top: 133px;
     font-size: 21px;
     }
+#margin {
+   float: left;
+   clear: both; 
+   color: black;
+  position: relative;
+   left: 560px;
+  top: -340px;
+}
+
+#messi {
+   position: fixed;
+    top: 0px;
+    right: 0px;
+}
+#ronaldo {
+  position: fixed;
+    top: 368px;
+    right: 0px;
+}
+#neymar {
+   position: fixed;
+    top: 368px;
+    right: 580px;
+}
+#rooney {
+  position: fixed;
+    top: 0px;
+    right: 580px;
+}
+#margintwo {
+  color: white;
+   position: fixed;
+    top: 345px;
+    left: 20px;
+}
+
+#marginthree {
+  color: white;
+   position: fixed;
+    top: 373px;
+    left: 20px;
+}
+#marginfour {
+  color: white;
+   position: fixed;
+    top: 430px;
+    left: 25px;
+}
+#marginfive {
+  color: white;
+   position: fixed;
+    top: 458px;
+    left: 25px;
+}
+#marginsix {
+  color: white;
+   position: fixed;
+    top: 486px;
+    left: 25px;
+}

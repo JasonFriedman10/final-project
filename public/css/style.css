@@ -34,6 +34,8 @@ button.fifa {
   
   
 }
+
+
 .custom3{
   float: center;
   position: relative; 
@@ -67,14 +69,15 @@ button.fifa {
 }
 .left {
   position: relative;
-  margin-bottom: 5px;
-  margin-top: 15px;
+  left: 25px;
+  
+
   
 }
 .right {
   position: relative;
-  margin-bottom: 5px;
-  margin-top: 15px;
+  right: 25px;
+  margin-bottom; 5px;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Nunito:300);
@@ -175,6 +178,7 @@ sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
   
 
 } 
+
 
 
 
